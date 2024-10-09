@@ -1,7 +1,7 @@
-// WriteaCprogramtocreateanarrayofintegers.Acceptavaluefromuseranduselinearsearchmethod to check whether the given number is present in array or not. Display proper message in output.
+// Write a C program to create an array of integers.Accept a value from user and use linearsearch method to check whether the given number is present in array or not. Display proper message in output.
 
-#include <stdio.h>
-
+#include<stdio.h>
+#include<conio.h>
 void linearSearch(int arr[], int n, int x) {
     int i;
     for (i = 0; i < n; i++) {
