@@ -1,7 +1,7 @@
 //Write a C program to implement a Doubly linked list with following operations create() , display(), insert(),delete()
 
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdio.h>
+#include<conio.h>
 
 // Structure for a doubly linked list node
 struct Node {
