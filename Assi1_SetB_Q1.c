@@ -1,7 +1,7 @@
 // Write a C program to read the data from the file “employee.txt” which contains empno and empname and sort the data on names alphabetically (use strcmp) using Bubble Sort.
 
 #include <stdio.h>
-#include <string.h>
+#include <conio.h>
 
 typedef struct {
     int empno;
