@@ -1,8 +1,7 @@
 // Write a C program to sort a random array of n integers (value of n accepted from user) by using Bubble Sort algorithm in ascending order
 
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include <conio.h>
 
 void bubbleSort(int arr[], int n) {
     int i, j, temp;
