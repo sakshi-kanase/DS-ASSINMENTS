@@ -1,7 +1,7 @@
 // Write a C program to accept the following array and find ‘x=26’ is whether present in array or not. A[7] = {11, 5, 45, 26, 12,34,19}
 
-#include <stdio.h>
-
+#include<stdio.h>
+#include<conio.h>
 void linearSearch(int arr[], int n, int x) {
     int i;
     for (i = 0; i < n; i++) {
