@@ -1,8 +1,8 @@
-// WriteaCprogramtoacceptasearchelementformuserandusingbinarysearchmethodfindwhether given element is present or not in the following array.
+// Write a C program to accept a search element for muserandusing binary search method find whether given element is present or not in the following array.
 // A[10] = {1,5,7,12,13,16,17,22,24}
 
-#include <stdio.h>
-
+#include<stdio.h>
+#include<conio.h>
 int binarySearch(int arr[], int n, int x) {
     int left = 0, right = n - 1;
     while (left <= right) {
